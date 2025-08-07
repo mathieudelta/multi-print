@@ -29,5 +29,6 @@
         ],
     },
     "depends": ["web", "mail"],
+    'images': ['static/description/banner.png'],
 }
 # -*- coding: utf-8 -*-
