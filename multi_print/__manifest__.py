@@ -13,6 +13,8 @@
     "license": "LGPL-3",
     "installable": True,
     "application": False,
+    "price": 30,
+    "currency": "EUR",
     # always loaded
     "data": [
         "security/ir.model.access.csv",
