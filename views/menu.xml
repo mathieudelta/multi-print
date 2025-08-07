@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="action_print_action" model="ir.actions.act_window">
+    <field name="name">Print Action</field>
+    <field name="res_model">print.action</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <menuitem id="menu_print_action_print" name="PDF Exports" sequence="10" action="action_print_action" />
+</odoo>

@@ -1,0 +1,35 @@
+<odoo>
+  <record id="view_print_action_form" model="ir.ui.view">
+    <field name="name">print.action.form</field>
+    <field name="model">print.action</field>
+    <field name="arch" type="xml">
+      <form string="Print Action">
+        <sheet>
+          <group>
+            <field name="name" />
+            <field name="res_ids" />
+            <field name="res_model" />
+            <field name="report_id" />
+            <field name="status_display" readonly="1" />
+            <field name="error_message" />
+          </group>
+        </sheet>
+        <div class="oe_chatter">
+          <field name="message_follower_ids" />
+          <field name="message_ids" />
+        </div>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_print_action_tree" model="ir.ui.view">
+    <field name="name">print.action.tree</field>
+    <field name="model">print.action</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="status_display" />
+        <field name="name" />
+      </tree>
+    </field>
+  </record>
+</odoo>

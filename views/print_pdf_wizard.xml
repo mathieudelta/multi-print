@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record model="ir.ui.view" id="print_pdf_wizard_form">
+    <field name="name">print.pdf.wizard.form</field>
+    <field name="model">print.pdf.wizard</field>
+    <field name="arch" type="xml">
+      <form string="Export in PDF">
+        <sheet>
+          <group>
+            <field name="res_model" invisible="1" />
+            <field name="res_ids" invisible="1" />
+            <field name="report_id" />
+          </group>
+        </sheet>
+        <footer>
+          <button name="print_pdf" string="Print" type="object" class="btn-primary" />
+          <button string="Cancel" class="btn-secondary" special="cancel" />
+        </footer>
+      </form>
+    </field>
+  </record>
+</odoo>

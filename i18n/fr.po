@@ -1,0 +1,242 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* multi_print
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20241029\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-07 09:43+0000\n"
+"PO-Revision-Date: 2025-08-07 09:43+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__message_needaction
+msgid "Action Needed"
+msgstr "Action requise"
+
+#. module: multi_print
+#: model_terms:ir.ui.view,arch_db:multi_print.print_pdf_wizard_form
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__message_attachment_count
+msgid "Attachment Count"
+msgstr "Nombre de pièces jointes"
+
+#. module: multi_print
+#: model:ir.model.fields.selection,name:multi_print.selection__print_action__status__completed
+msgid "Completed"
+msgstr "Terminé"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__create_uid
+#: model:ir.model.fields,field_description:multi_print.field_print_pdf_wizard__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__create_date
+#: model:ir.model.fields,field_description:multi_print.field_print_pdf_wizard__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__display_name
+#: model:ir.model.fields,field_description:multi_print.field_print_pdf_wizard__display_name
+msgid "Display Name"
+msgstr "Nom d'affichage"
+
+#. module: multi_print
+#: model:ir.model.fields.selection,name:multi_print.selection__print_action__status__error
+msgid "Error"
+msgstr "Erreur"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__error_message
+msgid "Error Message"
+msgstr "Message d'erreur"
+
+#. module: multi_print
+#: model:ir.ui.menu,name:multi_print.menu_print_action_print
+msgid "PDF Exports"
+msgstr "Exports PDF"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__message_follower_ids
+msgid "Followers"
+msgstr "Abonnés"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Abonnés (Partenaires)"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__attachment_id
+msgid "Generated Attachment"
+msgstr "Pièce jointe générée"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__has_message
+msgid "Has Message"
+msgstr "A un message"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__id
+#: model:ir.model.fields,field_description:multi_print.field_print_pdf_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__res_ids
+#: model:ir.model.fields,field_description:multi_print.field_print_pdf_wizard__res_ids
+msgid "Ids"
+msgstr "Identifiants"
+
+#. module: multi_print
+#: model:ir.model.fields,help:multi_print.field_print_action__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si coché, les nouveaux messages nécessitent votre attention."
+
+#. module: multi_print
+#: model:ir.model.fields,help:multi_print.field_print_action__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si coché, certains messages ont une erreur de livraison."
+
+#. module: multi_print
+#: model_terms:ir.ui.view,arch_db:multi_print.print_pdf_wizard_form
+msgid "Export in PDF"
+msgstr "Exporter en PDF"
+
+#. module: multi_print
+#: model_terms:ir.ui.view,arch_db:multi_print.print_pdf_wizard_form
+msgid "Print"
+msgstr "Imprimer"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__message_is_follower
+msgid "Is Follower"
+msgstr "Est abonné"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action____last_update
+#: model:ir.model.fields,field_description:multi_print.field_print_pdf_wizard____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__write_uid
+#: model:ir.model.fields,field_description:multi_print.field_print_pdf_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__write_date
+#: model:ir.model.fields,field_description:multi_print.field_print_pdf_wizard__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Pièce jointe principale"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__message_has_error
+msgid "Message Delivery error"
+msgstr "Erreur de livraison du message"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__message_ids
+msgid "Messages"
+msgstr "Messages"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__res_model
+#: model:ir.model.fields,field_description:multi_print.field_print_pdf_wizard__res_model
+msgid "Model"
+msgstr "Modèle"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'actions"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__message_has_error_counter
+msgid "Number of errors"
+msgstr "Nombre d'erreurs"
+
+#. module: multi_print
+#: model:ir.model.fields,help:multi_print.field_print_action__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Nombre de messages nécessitant une action"
+
+#. module: multi_print
+#: model:ir.model.fields,help:multi_print.field_print_action__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Nombre de messages avec une erreur de livraison"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__report_id
+#: model:ir.model.fields,field_description:multi_print.field_print_pdf_wizard__report_id
+msgid "PDF"
+msgstr "PDF"
+
+#. module: multi_print
+#: model:ir.model.fields.selection,name:multi_print.selection__print_action__status__pending
+msgid "Pending"
+msgstr "En attente"
+
+#. module: multi_print
+#: model:ir.actions.act_window,name:multi_print.action_print_action
+#: model:ir.model,name:multi_print.model_print_action
+#: model_terms:ir.ui.view,arch_db:multi_print.view_print_action_form
+msgid "Print Action"
+msgstr "Export PDF"
+
+#. module: multi_print
+#: model:ir.actions.server,name:multi_print.cron_print_actions_ir_actions_server
+#: model:ir.cron,cron_name:multi_print.cron_print_actions
+msgid "Print Actions"
+msgstr "Exports PDF"
+
+#. module: multi_print
+#: model:ir.model,name:multi_print.model_print_pdf_wizard
+msgid "Print PDF Wizard"
+msgstr "Assistant d'impression PDF"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__processed_count
+msgid "Processed Count"
+msgstr "Nombre traité"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__status
+#: model:ir.model.fields,field_description:multi_print.field_print_action__status_display
+msgid "Status"
+msgstr "Statut"
+
+#. module: multi_print
+#: model:ir.model.fields,field_description:multi_print.field_print_action__total_count
+msgid "Total Count"
+msgstr "Nombre total"
+
+#. module: multi_print
+#. odoo-python
+#: code:addons/multi_print/models/print_action.py:0
+#, python-format
+msgid "Your zip file is ready to download."
+msgstr "Votre export PDF est prêt pour le téléchargement."
