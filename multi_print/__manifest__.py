@@ -13,7 +13,7 @@
     "license": "LGPL-3",
     "installable": True,
     "application": False,
-    "price": 30,
+    "price": 100,
     "currency": "EUR",
     # always loaded
     "data": [
