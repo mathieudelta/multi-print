@@ -87,6 +87,53 @@ Tired of manually printing documents one by one? The **Multi-Print** module revo
 4. **Click and wait** - Let the system handle the rest
 5. **Download your ZIP** - Get notified when ready
 
+## 🔧 Integration Guide
+
+### Adding Multi-Print to Your Models
+
+To add the multi-print functionality to any model in your Odoo system, simply add the following XML record to your view file:
+
+```xml
+<record model="ir.actions.act_window" id="your_model_open_print_pdf_wizard">
+    <field name="name">Bulk Print</field>
+    <field name="binding_model_id" ref="your_module.model_your_model" />
+    <field name="res_model">print.pdf.wizard</field>
+    <field name="view_mode">form</field>
+    <field name="target">new</field>
+    <field name="context">{'default_res_model': 'your.model', 'default_res_ids': active_ids}</field>
+</record>
+```
+
+### Example: Adding to Account Moves
+
+Here's how to add multi-print functionality to account moves:
+
+```xml
+<record model="ir.actions.act_window" id="account_move_open_print_pdf_wizard">
+    <field name="name">Impression multiple</field>
+    <field name="binding_model_id" ref="account.model_account_move" />
+    <field name="res_model">print.pdf.wizard</field>
+    <field name="view_mode">form</field>
+    <field name="target">new</field>
+    <field name="context">{'default_res_model': 'account.move', 'default_res_ids': active_ids}</field>
+</record>
+```
+
+### Configuration Parameters
+
+- **`name`**: The display name for the action in the UI
+- **`binding_model_id`**: Reference to the model where you want to add the action
+- **`res_model`**: Always set to `print.pdf.wizard`
+- **`view_mode`**: Set to `form` for the wizard interface
+- **`target`**: Set to `new` to open in a popup window
+- **`context`**: Contains the default values:
+  - `default_res_model`: Your model's technical name
+  - `default_res_ids`: `active_ids` (automatically populated with selected records)
+
+### Result
+
+After adding this configuration, users will see a "Bulk Print" option in the action menu when selecting multiple records of your model. This will open the multi-print wizard with the selected records pre-populated.
+
 ## 📊 Real-World Impact
 
 **Before Multi-Print:**
